@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+p{
+    color: hsl(0, 0%, 81%);
+}
+h3
+{
+    padding: 5px;
+}
+.info-setting
+{
+    margin: 15px;
+}
+.data
+{
+    padding: 20px;
+}
+
+
+/* images of people */
+.bio-image{
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+/* info setting of people */
+.danial-info
+{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.jonathan-bio
+{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+}
+.jeanette-bio
+{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border-radius: 10px;
+}
+.Patrick-bio
+{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    padding-bottom: 55px;
+}
+.kira-bio
+{
+    background-color: white;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: black;
+    line-height: 2.5rem;
+}
+
+
+/* image setting */
+img{
+    float: left;
+}
+
+/* making responsive */
+@media (max-width: 1000px)
+{
+    .kira-bio
+    {
+        padding: 0;
+        margin: 15px;
+    }
+}
